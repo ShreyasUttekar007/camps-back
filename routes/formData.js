@@ -53,11 +53,11 @@ router.get("/results", async (req, res) => {
 
     // Initial vote counts for specific options
     const initialCounts = {
-      "श्री.शंभूराज शिवाजीराव देसाई (शिंदे गट)": 3817,
-      "श्री.सत्यजितसिंह विक्रमसिंह पाटणकर": 1094,
-      "श्री.भानुप्रताप कदम (ठाकरे गट)": 636,
-      NOTA: 108,
-      Other: 11,
+      "श्री.शंभूराज शिवाजीराव देसाई (शिंदे गट)": 4417,
+      "श्री.सत्यजितसिंह विक्रमसिंह पाटणकर": 1294,
+      "श्री.भानुप्रताप कदम (ठाकरे गट)": 736,
+      NOTA: 148,
+      Other: 21,
     };
 
     // Calculate the current counts based on the database entries
